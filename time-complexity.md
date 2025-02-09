@@ -77,7 +77,7 @@ int binarySearch(vector<int>& arr, int target) {
 }
 ```
 
-在二分搜的過程中，最佳情況是一次就找到，而最壞情況則是 $\lceil \log_2 n\rceil$ (其中 $\lceil\ \rceil$ 為上高斯符號)，因此忽略常數後以 $ \log n$ 來表示。
+在二分搜的過程中，最佳情況是一次就找到，而最壞情況則是 $\lceil \log_2 n\rceil$ (其中 $\lceil\ \rceil$ 為上高斯符號)，因此忽略常數後以 $O(\log n)$ 來表示。
 
 - $O(n^2)$
 
